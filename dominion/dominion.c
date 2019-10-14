@@ -1246,6 +1246,8 @@ int case_tribute(int currentPlayer,int nextPlayer,struct gameState *state,int tr
             }
         }
 
+        //bug 1: after tribute card has been played, there is no discard function to trash it. It will still be on the player's hand. 
+
         return 0;
 }
 int case_mine(int currentPlayer, int choice1, int choice2, int handPos, struct gameState *state){
@@ -1261,6 +1263,7 @@ int case_mine(int currentPlayer, int choice1, int choice2, int handPos, struct g
             return -1;
         }
 
+        //bug 2: the code below is expected to return failure to use the card if the value of the treasure card chosen to trash +3 is "smaller than" the card to gain, but the code is "bigger than". It will return failure when the value of card to trash +3 is bigger than the card to gain.
         if ( (getCost(state->hand[currentPlayer][choice1]) + 3) > getCost(choice2) )
         {
             return -1;
