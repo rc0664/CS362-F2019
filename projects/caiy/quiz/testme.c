@@ -6,21 +6,18 @@
 char inputChar()
 {
    char ch;
-   ch = 'a' +rand() % 26;  //randomly lowercase letter
+   ch = ' ' +rand() % 95;  //randomly character from space to ~
    return ch;
 }
 
 char *inputString()
 {
   char ch;
-  char* str;
-  int i;
-  i=rand()% 14; //0-13
-  if(i=0)
-       i=1; //if i is 0, make it to 1.
-  for(int j=0; j<=i; j++){
-       ch = 'a' +rand() %26; //random lowercase letter  
-       str+=ch;
+  static char str[6];
+  //I tried to write random string length of 1-6 by char *str = new char[i], but cannot be compiled by makefile
+  for(int j = 0; j < 5; j++){
+       ch = 'a' +rand() % 26; //random letter from a-z.   
+       str[j] = ch;
   }
   return str;
 }
