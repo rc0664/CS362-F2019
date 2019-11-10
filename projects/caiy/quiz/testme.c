@@ -5,14 +5,24 @@
 
 char inputChar()
 {
-    // TODO: rewrite this function
-    return ' ';
+   char ch;
+   ch = 'a' +rand() % 26;  //randomly lowercase letter
+   return ch;
 }
 
 char *inputString()
 {
-    // TODO: rewrite this function
-    return "";
+  char ch;
+  char* str;
+  int i;
+  i=rand()% 14; //0-13
+  if(i=0)
+       i=1; //if i is 0, make it to 1.
+  for(int j=0; j<=i; j++){
+       ch = 'a' +rand() %26; //random lowercase letter  
+       str+=ch;
+  }
+  return str;
 }
 
 void testme()
