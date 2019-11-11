@@ -707,7 +707,7 @@ int cardEffect(int card, int choice1, int choice2, int choice3, struct gameState
     case baron:
       return case_baron(currentPlayer, choice1, *state);
     case minion:
-      return case_minion(currentPlayer, handPos, choice1, choice2,  *state);
+      return case_minion(currentPlayer, choice1, choice2, handPos, *state);
     case ambassador:
       return case_ambassador(currentPlayer, choice1,choice2, handPos, *state);
     case tribute:
@@ -1081,7 +1081,7 @@ state->numBuys++;//Increase buys by 1!
 
         return 0;
 }
-int case_minion(int currentPlayer, int handPos, int choice1, int choice2, struct gameState *state){
+int case_minion(int currentPlayer, int choice1, int choice2, int handPos, struct gameState *state){
  //+1 action
         state->numActions++;
 

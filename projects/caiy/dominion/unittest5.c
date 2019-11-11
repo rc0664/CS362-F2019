@@ -12,8 +12,9 @@ int main()
 	int i, r, b;
 	int e = 0;
 	// set your card array
-	int k[10] = { gold, silver, feast, gardens, mine , remodel, smithy, village, baron, great_hall };
-	// declare the game state. Put a mine on hand, a gold on handpos[0].
+	int k[10] = { gold, copper, silver, gardens, mine , remodel, smithy, village, baron, great_hall };
+	// declare the game state. Put a mine on hand, two golds on front.
+	int m[10] = { silver,copper, gold, curse, mine , remodel, smithy, village, baron, great_hall }; //put copper and silver to check if we throwed correct card
 	struct gameState G;
 	// declare the arrays of all coppers, silvers, and golds
 
@@ -27,11 +28,65 @@ int main()
 	r = initializeGame(2, k, seed, &G); // initialize a new game. Set num of players to 2. 
 
 	//from dominion.c, for 2 players, the supply count of estates is 8.
-	b = case_mine(1, 0, copper, 0, &G); //gain choice2, which is copper. The handpos[0] is gold.
+	b = case_mine(0, 0, copper, 4, &G); //gain choice2, which is copper. The choice 1 is gold
 	if (b == -1)//If failed to throw away a gold for a copper
 		printf("Failed throw gold for the copper\n");
 	else
 		printf("Passed throw gold for the copper\n");
+	memset(&G, 23, sizeof(struct gameState)); // clear the game state
+	r = initializeGame(2, k, seed, &G); // initialize a new game. Set num of players to 2. 
+	b = case_mine(0, 2, copper, 4, &G); //gain choice2, which is copper. The choice 1 is silver
+	if (b == -1)//If failed to throw away a gold for a copper
+		printf("Failed throw silver for the copper\n");
+	else
+		printf("Passed throw silver for the copper\n");
+	memset(&G, 23, sizeof(struct gameState)); // clear the game state
+	r = initializeGame(2, k, seed, &G); // initialize a new game. Set num of players to 2. 
+	b = case_mine(0, 1, gold, 4, &G); //gain choice2, which is gold. The choice 1 is copper
+	if (b == -1)//If failed to throw away a gold for a copper
+		printf("Passed to deal with throw copper for the gold\n");
+	else
+		printf("Failed to deal with throw copper for the gold\n");
+
+
+	//Test if the trashed card is correct
+	memset(&G, 23, sizeof(struct gameState)); // clear the game state
+	r = initializeGame(2, m, seed, &G); // initialize a new game. Set num of players to 2. 
+
+	//from dominion.c, for 2 players, the supply count of estates is 8.
+	b = case_mine(0, 0, copper, 4, &G); //we choose to trash a silver
+	for (i = 0; i < G.deckCount[0]; i++) {
+		if (G.deck[0][i] == silver) {
+			printf("Failed trashing silver\n");
+			e = 1;
+			break;
+		}
+
+	}
+	if (e == 0)
+		printf("Passed trashing silver\n");
+	
+	//Test if we did not choose a treasure e.g. a curse
+	memset(&G, 23, sizeof(struct gameState)); // clear the game state
+	r = initializeGame(2, m, seed, &G); // initialize a new game. Set num of players to 2. 
+
+	//from dominion.c, for 2 players, the supply count of estates is 8.
+	b = case_mine(0, 3, copper, 4, &G); //we choose to trash a curse
+	if(b == -1)
+		printf("Passed choosing range 1\n");
+	else
+		printf("Failed choosing range 1\n");
+
+	//Test if we choose to get a non-treasure card e.g. a curse
+	memset(&G, 23, sizeof(struct gameState)); // clear the game state
+	r = initializeGame(2, m, seed, &G); // initialize a new game. Set num of players to 2. 
+
+	//from dominion.c, for 2 players, the supply count of estates is 8.
+	b = case_mine(0, 1, curse, 4, &G); //we choose to buy a curse with a copper.
+	if (b == -1)
+		printf("Passed choosing range 2\n");
+	else
+		printf("Failed choosing range 2\n");
 
 	printf("Ending Testing mine()\n");
 	return 0;

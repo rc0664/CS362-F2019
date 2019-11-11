@@ -36,7 +36,7 @@ player: player.c interface.o
 	
 unittestresults: unittest1 unittest2 unittest3 unittest4 unittest5
 	unittest1 >> unittestresults.out
-	unittest2 >> unittestresults.out
+	-unittest2 >> unittestresults.out
 	unittest3 >> unittestresults.out
 	unittest4 >> unittestresults.out
 	unittest5 >> unittestresults.out

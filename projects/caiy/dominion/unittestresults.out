@@ -1,16 +1,29 @@
 Begin Testing baron():
 Failed removing estates
-Passed trashing baron
+Passed trashing baron while choose to discard an estate.
+Passed trashing baron while choose to gain an estate.
 Ending Testing baron()
 Begin Testing ambassador():
 Failed adding j
 Passed returning card to supply
+Passed adding estates
+Passed choice2 > 2 exception
+Passed choice2 <0 exception
+Passed choice1 == handpos exception
 Ending Testing ambassador()
 Begin Testing tribute():
 Passed trashing tribute
+Failed adding coins
+Failed drawing cards
+Failed to read cards
 Ending Testing tribute()
 Begin Testing mine():
 Failed throw gold for the copper
+Failed throw silver for the copper
+Failed to deal with throw copper for the gold
+Passed trashing silver
+Passed choosing range 1
+Passed choosing range 2
 Ending Testing mine()
 Function 'updateCoins'
 Lines executed:81.82% of 11
@@ -19,22 +32,22 @@ Taken at least once:75.00% of 8
 No calls
 
 Function 'gainCard'
-Lines executed:61.54% of 13
+Lines executed:76.92% of 13
 Branches executed:100.00% of 6
-Taken at least once:50.00% of 6
+Taken at least once:66.67% of 6
 Calls executed:100.00% of 1
 
 Function 'discardCard'
-Lines executed:0.00% of 13
-Branches executed:0.00% of 6
-Taken at least once:0.00% of 6
+Lines executed:84.62% of 13
+Branches executed:100.00% of 6
+Taken at least once:50.00% of 6
 No calls
 
 Function 'case_mine'
-Lines executed:26.67% of 15
-Branches executed:28.57% of 14
-Taken at least once:14.29% of 14
-Calls executed:0.00% of 5
+Lines executed:93.33% of 15
+Branches executed:100.00% of 14
+Taken at least once:71.43% of 14
+Calls executed:100.00% of 5
 
 Function 'case_tribute'
 Lines executed:51.52% of 33
@@ -43,9 +56,9 @@ Taken at least once:43.33% of 30
 Calls executed:66.67% of 3
 
 Function 'case_ambassador'
-Lines executed:36.36% of 22
-Branches executed:53.85% of 26
-Taken at least once:34.62% of 26
+Lines executed:50.00% of 22
+Branches executed:61.54% of 26
+Taken at least once:53.85% of 26
 Calls executed:0.00% of 3
 
 Function 'case_minion'
@@ -55,9 +68,9 @@ Taken at least once:0.00% of 18
 Calls executed:0.00% of 6
 
 Function 'case_baron'
-Lines executed:65.52% of 29
-Branches executed:88.89% of 18
-Taken at least once:61.11% of 18
+Lines executed:93.10% of 29
+Branches executed:100.00% of 18
+Taken at least once:77.78% of 18
 Calls executed:75.00% of 8
 
 Function 'cardEffect'
@@ -67,9 +80,9 @@ Taken at least once:0.00% of 93
 Calls executed:0.00% of 44
 
 Function 'getCost'
-Lines executed:0.00% of 30
-Branches executed:0.00% of 28
-Taken at least once:0.00% of 28
+Lines executed:16.67% of 30
+Branches executed:100.00% of 28
+Taken at least once:10.71% of 28
 No calls
 
 Function 'drawCard'
@@ -174,10 +187,10 @@ No branches
 Calls executed:0.00% of 1
 
 File 'dominion.c'
-Lines executed:26.69% of 577
-Branches executed:30.70% of 417
-Taken at least once:23.26% of 417
-Calls executed:16.84% of 95
+Lines executed:33.45% of 577
+Branches executed:42.21% of 417
+Taken at least once:28.78% of 417
+Calls executed:22.11% of 95
 Creating 'dominion.c.gcov'
 
 File 'c:/mingw/include/stdio.h'
@@ -186,7 +199,3 @@ No branches
 Calls executed:0.00% of 1
 Creating 'stdio.h.gcov'
 
-Begin Testing baron():
-Failed removing estates
-Passed trashing baron
-Ending Testing baron()
