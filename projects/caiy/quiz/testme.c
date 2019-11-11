@@ -15,7 +15,8 @@ char *inputString()
   char ch;
   static char str[6];
   //I tried to write random string length of 1-6 by char *str = new char[i], but cannot be compiled by makefile
-  for(int j = 0; j < 5; j++){
+  int j;
+  for(j = 0; j < 5; j++){
        ch = 'a' +rand() % 26; //random letter from a-z.   
        str[j] = ch;
   }
