@@ -1,0 +1,1241 @@
+
+Begin Testing baron():
+
+ loop 1
+
+ player# 4, choice1 = 0, currentplayer = 0 
+Failed to get baron on Test # 1
+Failed to +1 buy after played baron on Test # 1
+Failed to reduce supply count of estate by 1 after gained one on Test # 1. While 4 players the supplycount becomes 12
+
+ loop 2
+
+ player# 4, choice1 = 0, currentplayer = 0 
+Failed to get baron on Test # 2
+Failed to +1 buy after played baron on Test # 2
+Failed to reduce supply count of estate by 1 after gained one on Test # 2. While 4 players the supplycount becomes 12
+Wrong number of estates on hand after gained one on Test # 2. It is 1
+
+ loop 3
+
+ player# 3, choice1 = 1, currentplayer = 0 
+Failed to get baron on Test # 3
+Failed to +1 buy after played baron on Test # 3
+Failed to get coin after threw an estate on Test # 3
+Failed to throw an estate on Test # 3
+
+ loop 4
+
+ player# 4, choice1 = 0, currentplayer = 0 
+Failed to get baron on Test # 4
+Failed to +1 buy after played baron on Test # 4
+Failed to reduce supply count of estate by 1 after gained one on Test # 4. While 4 players the supplycount becomes 12
+
+ loop 5
+
+ player# 3, choice1 = 0, currentplayer = 0 
+Failed to get baron on Test # 5
+Failed to +1 buy after played baron on Test # 5
+Failed to reduce supply count of estate by 1 after gained one on Test # 5. While 3 players the supplycount becomes 12
+Wrong number of estates on hand after gained one on Test # 5. It is 3
+
+ loop 6
+
+ player# 2, choice1 = 1, currentplayer = 0 
+Failed to get baron on Test # 6
+Failed to +1 buy after played baron on Test # 6
+Failed to get coin after threw an estate on Test # 6
+Failed to throw an estate on Test # 6
+
+ loop 7
+
+ player# 2, choice1 = 1, currentplayer = 0 
+Failed to get baron on Test # 7
+Failed to +1 buy after played baron on Test # 7
+Failed to get coin after threw an estate on Test # 7
+Failed to throw an estate on Test # 7
+
+ loop 8
+
+ player# 2, choice1 = 1, currentplayer = 0 
+Failed to get baron on Test # 8
+Failed to +1 buy after played baron on Test # 8
+Failed to get coin after threw an estate on Test # 8
+Failed to throw an estate on Test # 8
+
+ loop 9
+
+ player# 4, choice1 = 0, currentplayer = 0 
+Failed to get baron on Test # 9
+Failed to +1 buy after played baron on Test # 9
+Failed to reduce supply count of estate by 1 after gained one on Test # 9. While 4 players the supplycount becomes 12
+Wrong number of estates on hand after gained one on Test # 9. It is 1
+
+ loop 10
+
+ player# 2, choice1 = 0, currentplayer = 0 
+Failed to get baron on Test # 10
+Failed to +1 buy after played baron on Test # 10
+Failed to reduce supply count of estate by 1 after gained one on Test # 10. While 2 players the supplycount becomes 8
+Wrong number of estates on hand after gained one on Test # 10. It is 1
+
+ loop 11
+
+ player# 4, choice1 = 1, currentplayer = 0 
+Failed to get baron on Test # 11
+Failed to +1 buy after played baron on Test # 11
+Failed to get coin after threw an estate on Test # 11
+Failed to throw an estate on Test # 11
+
+ loop 12
+
+ player# 4, choice1 = 1, currentplayer = 0 
+Failed to get baron on Test # 12
+Failed to +1 buy after played baron on Test # 12
+Failed to get coin after threw an estate on Test # 12
+Failed to throw an estate on Test # 12
+
+ loop 13
+
+ player# 2, choice1 = 1, currentplayer = 0 
+Failed to get baron on Test # 13
+Failed to +1 buy after played baron on Test # 13
+Failed to get coin after threw an estate on Test # 13
+Failed to throw an estate on Test # 13
+
+ loop 14
+
+ player# 3, choice1 = 0, currentplayer = 0 
+Failed to get baron on Test # 14
+Failed to +1 buy after played baron on Test # 14
+Failed to reduce supply count of estate by 1 after gained one on Test # 14. While 3 players the supplycount becomes 12
+
+ loop 15
+
+ player# 3, choice1 = 0, currentplayer = 0 
+Failed to get baron on Test # 15
+Failed to +1 buy after played baron on Test # 15
+Failed to reduce supply count of estate by 1 after gained one on Test # 15. While 3 players the supplycount becomes 12
+
+ loop 16
+
+ player# 3, choice1 = 1, currentplayer = 0 
+Failed to get baron on Test # 16
+Failed to +1 buy after played baron on Test # 16
+Failed to get coin after threw an estate on Test # 16
+Failed to throw an estate on Test # 16
+
+ loop 17
+
+ player# 3, choice1 = 0, currentplayer = 0 
+Failed to get baron on Test # 17
+Failed to +1 buy after played baron on Test # 17
+Failed to reduce supply count of estate by 1 after gained one on Test # 17. While 3 players the supplycount becomes 12
+
+ loop 18
+
+ player# 3, choice1 = 1, currentplayer = 0 
+Failed to get baron on Test # 18
+Failed to +1 buy after played baron on Test # 18
+Failed to get coin after threw an estate on Test # 18
+Failed to throw an estate on Test # 18
+
+ loop 19
+
+ player# 2, choice1 = 0, currentplayer = 0 
+Failed to get baron on Test # 19
+Failed to +1 buy after played baron on Test # 19
+Failed to reduce supply count of estate by 1 after gained one on Test # 19. While 2 players the supplycount becomes 8
+Wrong number of estates on hand after gained one on Test # 19. It is 3
+
+ loop 20
+
+ player# 2, choice1 = 0, currentplayer = 0 
+Failed to get baron on Test # 20
+Failed to +1 buy after played baron on Test # 20
+Failed to reduce supply count of estate by 1 after gained one on Test # 20. While 2 players the supplycount becomes 8
+
+ loop 21
+
+ player# 3, choice1 = 1, currentplayer = 0 
+Failed to get baron on Test # 21
+Failed to +1 buy after played baron on Test # 21
+Failed to get coin after threw an estate on Test # 21
+Failed to throw an estate on Test # 21
+
+ loop 22
+
+ player# 3, choice1 = 1, currentplayer = 0 
+Failed to get baron on Test # 22
+Failed to +1 buy after played baron on Test # 22
+Failed to get coin after threw an estate on Test # 22
+Failed to throw an estate on Test # 22
+
+ loop 23
+
+ player# 3, choice1 = 0, currentplayer = 0 
+Failed to get baron on Test # 23
+Failed to +1 buy after played baron on Test # 23
+Failed to reduce supply count of estate by 1 after gained one on Test # 23. While 3 players the supplycount becomes 12
+Wrong number of estates on hand after gained one on Test # 23. It is 1
+
+ loop 24
+
+ player# 3, choice1 = 0, currentplayer = 0 
+Failed to get baron on Test # 24
+Failed to +1 buy after played baron on Test # 24
+Failed to reduce supply count of estate by 1 after gained one on Test # 24. While 3 players the supplycount becomes 12
+
+ loop 25
+
+ player# 3, choice1 = 1, currentplayer = 0 
+Failed to get baron on Test # 25
+Failed to +1 buy after played baron on Test # 25
+Failed to get coin after threw an estate on Test # 25
+Failed to throw an estate on Test # 25
+
+ loop 26
+
+ player# 3, choice1 = 0, currentplayer = 0 
+Failed to get baron on Test # 26
+Failed to +1 buy after played baron on Test # 26
+Failed to reduce supply count of estate by 1 after gained one on Test # 26. While 3 players the supplycount becomes 12
+
+ loop 27
+
+ player# 2, choice1 = 0, currentplayer = 0 
+Failed to get baron on Test # 27
+Failed to +1 buy after played baron on Test # 27
+Failed to reduce supply count of estate by 1 after gained one on Test # 27. While 2 players the supplycount becomes 8
+Wrong number of estates on hand after gained one on Test # 27. It is 3
+
+ loop 28
+
+ player# 3, choice1 = 0, currentplayer = 0 
+Failed to get baron on Test # 28
+Failed to +1 buy after played baron on Test # 28
+Failed to reduce supply count of estate by 1 after gained one on Test # 28. While 3 players the supplycount becomes 12
+
+ loop 29
+
+ player# 2, choice1 = 0, currentplayer = 0 
+Failed to get baron on Test # 29
+Failed to +1 buy after played baron on Test # 29
+Failed to reduce supply count of estate by 1 after gained one on Test # 29. While 2 players the supplycount becomes 8
+Wrong number of estates on hand after gained one on Test # 29. It is 1
+
+ loop 30
+
+ player# 2, choice1 = 0, currentplayer = 0 
+Failed to get baron on Test # 30
+Failed to +1 buy after played baron on Test # 30
+Failed to reduce supply count of estate by 1 after gained one on Test # 30. While 2 players the supplycount becomes 8
+Wrong number of estates on hand after gained one on Test # 30. It is 3
+
+ loop 31
+
+ player# 4, choice1 = 0, currentplayer = 0 
+Failed to get baron on Test # 31
+Failed to +1 buy after played baron on Test # 31
+Failed to reduce supply count of estate by 1 after gained one on Test # 31. While 4 players the supplycount becomes 12
+Wrong number of estates on hand after gained one on Test # 31. It is 1
+
+ loop 32
+
+ player# 4, choice1 = 1, currentplayer = 0 
+Failed to get baron on Test # 32
+Failed to +1 buy after played baron on Test # 32
+Failed to get coin after threw an estate on Test # 32
+Failed to throw an estate on Test # 32
+
+ loop 33
+
+ player# 3, choice1 = 1, currentplayer = 0 
+Failed to get baron on Test # 33
+Failed to +1 buy after played baron on Test # 33
+Failed to get coin after threw an estate on Test # 33
+Failed to throw an estate on Test # 33
+
+ loop 34
+
+ player# 2, choice1 = 0, currentplayer = 0 
+Failed to get baron on Test # 34
+Failed to +1 buy after played baron on Test # 34
+Failed to reduce supply count of estate by 1 after gained one on Test # 34. While 2 players the supplycount becomes 8
+Wrong number of estates on hand after gained one on Test # 34. It is 1
+
+ loop 35
+
+ player# 3, choice1 = 0, currentplayer = 0 
+Failed to get baron on Test # 35
+Failed to +1 buy after played baron on Test # 35
+Failed to reduce supply count of estate by 1 after gained one on Test # 35. While 3 players the supplycount becomes 12
+Wrong number of estates on hand after gained one on Test # 35. It is 3
+
+ loop 36
+
+ player# 4, choice1 = 0, currentplayer = 0 
+Failed to get baron on Test # 36
+Failed to +1 buy after played baron on Test # 36
+Failed to reduce supply count of estate by 1 after gained one on Test # 36. While 4 players the supplycount becomes 12
+
+ loop 37
+
+ player# 3, choice1 = 0, currentplayer = 0 
+Failed to get baron on Test # 37
+Failed to +1 buy after played baron on Test # 37
+Failed to reduce supply count of estate by 1 after gained one on Test # 37. While 3 players the supplycount becomes 12
+
+ loop 38
+
+ player# 3, choice1 = 0, currentplayer = 0 
+Failed to get baron on Test # 38
+Failed to +1 buy after played baron on Test # 38
+Failed to reduce supply count of estate by 1 after gained one on Test # 38. While 3 players the supplycount becomes 12
+
+ loop 39
+
+ player# 2, choice1 = 1, currentplayer = 0 
+Failed to get baron on Test # 39
+Failed to +1 buy after played baron on Test # 39
+Failed to get coin after threw an estate on Test # 39
+Failed to throw an estate on Test # 39
+
+ loop 40
+
+ player# 3, choice1 = 0, currentplayer = 0 
+Failed to get baron on Test # 40
+Failed to +1 buy after played baron on Test # 40
+Failed to reduce supply count of estate by 1 after gained one on Test # 40. While 3 players the supplycount becomes 12
+
+ loop 41
+
+ player# 4, choice1 = 0, currentplayer = 0 
+Failed to get baron on Test # 41
+Failed to +1 buy after played baron on Test # 41
+Failed to reduce supply count of estate by 1 after gained one on Test # 41. While 4 players the supplycount becomes 12
+
+ loop 42
+
+ player# 2, choice1 = 0, currentplayer = 0 
+Failed to get baron on Test # 42
+Failed to +1 buy after played baron on Test # 42
+Failed to reduce supply count of estate by 1 after gained one on Test # 42. While 2 players the supplycount becomes 8
+
+ loop 43
+
+ player# 4, choice1 = 1, currentplayer = 0 
+Failed to get baron on Test # 43
+Failed to +1 buy after played baron on Test # 43
+Failed to get coin after threw an estate on Test # 43
+Failed to throw an estate on Test # 43
+
+ loop 44
+
+ player# 4, choice1 = 0, currentplayer = 0 
+Failed to get baron on Test # 44
+Failed to +1 buy after played baron on Test # 44
+Failed to reduce supply count of estate by 1 after gained one on Test # 44. While 4 players the supplycount becomes 12
+
+ loop 45
+
+ player# 4, choice1 = 0, currentplayer = 0 
+Failed to get baron on Test # 45
+Failed to +1 buy after played baron on Test # 45
+Failed to reduce supply count of estate by 1 after gained one on Test # 45. While 4 players the supplycount becomes 12
+
+ loop 46
+
+ player# 4, choice1 = 1, currentplayer = 0 
+Failed to get baron on Test # 46
+Failed to +1 buy after played baron on Test # 46
+Failed to get coin after threw an estate on Test # 46
+Failed to throw an estate on Test # 46
+
+ loop 47
+
+ player# 2, choice1 = 0, currentplayer = 0 
+Failed to get baron on Test # 47
+Failed to +1 buy after played baron on Test # 47
+Failed to reduce supply count of estate by 1 after gained one on Test # 47. While 2 players the supplycount becomes 8
+
+ loop 48
+
+ player# 3, choice1 = 0, currentplayer = 0 
+Failed to get baron on Test # 48
+Failed to +1 buy after played baron on Test # 48
+Failed to reduce supply count of estate by 1 after gained one on Test # 48. While 3 players the supplycount becomes 12
+Wrong number of estates on hand after gained one on Test # 48. It is 1
+
+ loop 49
+
+ player# 2, choice1 = 0, currentplayer = 0 
+Failed to get baron on Test # 49
+Failed to +1 buy after played baron on Test # 49
+Failed to reduce supply count of estate by 1 after gained one on Test # 49. While 2 players the supplycount becomes 8
+Wrong number of estates on hand after gained one on Test # 49. It is 1
+
+ loop 50
+
+ player# 4, choice1 = 0, currentplayer = 0 
+Failed to get baron on Test # 50
+Failed to +1 buy after played baron on Test # 50
+Failed to reduce supply count of estate by 1 after gained one on Test # 50. While 4 players the supplycount becomes 12
+Wrong number of estates on hand after gained one on Test # 50. It is 1
+
+End Testing baron():
+
+Begin Testing minion():
+
+ loop 1
+
+ player# 4, choice1 = 1, choice2 = 0, currentplayer = 0 
+Failed to get minion on Test # 1
+Failed to +2 coins after played minion on Test # 1
+
+ loop 2
+
+ player# 3, choice1 = 0, choice2 = 1, currentplayer = 0 
+Failed to get minion on Test # 2
+Failed to discard all and redraw 4 cards after played minion on Test # 2. The handcount of player 1 is 0
+
+ loop 3
+
+ player# 3, choice1 = 0, choice2 = 1, currentplayer = 0 
+Failed to get minion on Test # 3
+Failed to discard all and redraw 4 cards after played minion on Test # 3. The handcount of player 1 is 0
+
+ loop 4
+
+ player# 3, choice1 = 0, choice2 = 1, currentplayer = 0 
+Failed to get minion on Test # 4
+Failed to discard all and redraw 4 cards after played minion on Test # 4. The handcount of player 1 is 0
+
+ loop 5
+
+ player# 3, choice1 = 0, choice2 = 1, currentplayer = 0 
+Failed to get minion on Test # 5
+Failed to discard all and redraw 4 cards after played minion on Test # 5. The handcount of player 1 is 0
+
+ loop 6
+
+ player# 2, choice1 = 1, choice2 = 0, currentplayer = 0 
+Failed to get minion on Test # 6
+Failed to +2 coins after played minion on Test # 6
+
+ loop 7
+
+ player# 3, choice1 = 0, choice2 = 1, currentplayer = 0 
+Failed to get minion on Test # 7
+Failed to discard all and redraw 4 cards after played minion on Test # 7. The handcount of player 1 is 0
+
+ loop 8
+
+ player# 2, choice1 = 0, choice2 = 1, currentplayer = 0 
+Failed to get minion on Test # 8
+Failed to discard all and redraw 4 cards after played minion on Test # 8. The handcount of player 1 is 0
+
+ loop 9
+
+ player# 3, choice1 = 0, choice2 = 1, currentplayer = 0 
+Failed to get minion on Test # 9
+Failed to discard all and redraw 4 cards after played minion on Test # 9. The handcount of player 1 is 0
+
+ loop 10
+
+ player# 2, choice1 = 0, choice2 = 1, currentplayer = 0 
+Failed to get minion on Test # 10
+Failed to discard all and redraw 4 cards after played minion on Test # 10. The handcount of player 1 is 0
+
+ loop 11
+
+ player# 2, choice1 = 1, choice2 = 0, currentplayer = 0 
+Failed to get minion on Test # 11
+Failed to +2 coins after played minion on Test # 11
+
+ loop 12
+
+ player# 4, choice1 = 0, choice2 = 1, currentplayer = 0 
+Failed to get minion on Test # 12
+Failed to discard all and redraw 4 cards after played minion on Test # 12. The handcount of player 1 is 0
+
+ loop 13
+
+ player# 3, choice1 = 1, choice2 = 0, currentplayer = 0 
+Failed to get minion on Test # 13
+Failed to +2 coins after played minion on Test # 13
+
+ loop 14
+
+ player# 3, choice1 = 1, choice2 = 0, currentplayer = 0 
+Failed to get minion on Test # 14
+Failed to +2 coins after played minion on Test # 14
+
+ loop 15
+
+ player# 4, choice1 = 0, choice2 = 1, currentplayer = 0 
+Failed to get minion on Test # 15
+Failed to discard all and redraw 4 cards after played minion on Test # 15. The handcount of player 1 is 0
+
+ loop 16
+
+ player# 4, choice1 = 1, choice2 = 0, currentplayer = 0 
+Failed to get minion on Test # 16
+Failed to +2 coins after played minion on Test # 16
+
+ loop 17
+
+ player# 4, choice1 = 1, choice2 = 0, currentplayer = 0 
+Failed to get minion on Test # 17
+Failed to +2 coins after played minion on Test # 17
+
+ loop 18
+
+ player# 2, choice1 = 0, choice2 = 1, currentplayer = 0 
+Failed to get minion on Test # 18
+Failed to discard all and redraw 4 cards after played minion on Test # 18. The handcount of player 1 is 0
+
+ loop 19
+
+ player# 3, choice1 = 0, choice2 = 1, currentplayer = 0 
+Failed to get minion on Test # 19
+Failed to discard all and redraw 4 cards after played minion on Test # 19. The handcount of player 1 is 0
+
+ loop 20
+
+ player# 3, choice1 = 1, choice2 = 0, currentplayer = 0 
+Failed to get minion on Test # 20
+Failed to +2 coins after played minion on Test # 20
+
+ loop 21
+
+ player# 4, choice1 = 1, choice2 = 0, currentplayer = 0 
+Failed to get minion on Test # 21
+Failed to +2 coins after played minion on Test # 21
+
+ loop 22
+
+ player# 3, choice1 = 1, choice2 = 0, currentplayer = 0 
+Failed to get minion on Test # 22
+Failed to +2 coins after played minion on Test # 22
+
+ loop 23
+
+ player# 3, choice1 = 1, choice2 = 0, currentplayer = 0 
+Failed to get minion on Test # 23
+Failed to +2 coins after played minion on Test # 23
+
+ loop 24
+
+ player# 3, choice1 = 1, choice2 = 0, currentplayer = 0 
+Failed to get minion on Test # 24
+Failed to +2 coins after played minion on Test # 24
+
+ loop 25
+
+ player# 4, choice1 = 0, choice2 = 1, currentplayer = 0 
+Failed to get minion on Test # 25
+Failed to discard all and redraw 4 cards after played minion on Test # 25. The handcount of player 1 is 0
+
+ loop 26
+
+ player# 4, choice1 = 1, choice2 = 0, currentplayer = 0 
+Failed to get minion on Test # 26
+Failed to +2 coins after played minion on Test # 26
+
+ loop 27
+
+ player# 4, choice1 = 0, choice2 = 1, currentplayer = 0 
+Failed to get minion on Test # 27
+Failed to discard all and redraw 4 cards after played minion on Test # 27. The handcount of player 1 is 0
+
+ loop 28
+
+ player# 4, choice1 = 0, choice2 = 1, currentplayer = 0 
+Failed to get minion on Test # 28
+Failed to discard all and redraw 4 cards after played minion on Test # 28. The handcount of player 1 is 0
+
+ loop 29
+
+ player# 4, choice1 = 1, choice2 = 0, currentplayer = 0 
+Failed to get minion on Test # 29
+Failed to +2 coins after played minion on Test # 29
+
+ loop 30
+
+ player# 3, choice1 = 0, choice2 = 1, currentplayer = 0 
+Failed to get minion on Test # 30
+Failed to discard all and redraw 4 cards after played minion on Test # 30. The handcount of player 1 is 0
+
+ loop 31
+
+ player# 4, choice1 = 1, choice2 = 0, currentplayer = 0 
+Failed to get minion on Test # 31
+Failed to +2 coins after played minion on Test # 31
+
+ loop 32
+
+ player# 2, choice1 = 1, choice2 = 0, currentplayer = 0 
+Failed to get minion on Test # 32
+Failed to +2 coins after played minion on Test # 32
+
+ loop 33
+
+ player# 2, choice1 = 0, choice2 = 1, currentplayer = 0 
+Failed to get minion on Test # 33
+Failed to discard all and redraw 4 cards after played minion on Test # 33. The handcount of player 1 is 0
+
+ loop 34
+
+ player# 2, choice1 = 0, choice2 = 1, currentplayer = 0 
+Failed to get minion on Test # 34
+Failed to discard all and redraw 4 cards after played minion on Test # 34. The handcount of player 1 is 0
+
+ loop 35
+
+ player# 3, choice1 = 1, choice2 = 0, currentplayer = 0 
+Failed to get minion on Test # 35
+Failed to +2 coins after played minion on Test # 35
+
+ loop 36
+
+ player# 2, choice1 = 0, choice2 = 1, currentplayer = 0 
+Failed to get minion on Test # 36
+Failed to discard all and redraw 4 cards after played minion on Test # 36. The handcount of player 1 is 0
+
+ loop 37
+
+ player# 2, choice1 = 0, choice2 = 1, currentplayer = 0 
+Failed to get minion on Test # 37
+Failed to discard all and redraw 4 cards after played minion on Test # 37. The handcount of player 1 is 0
+
+ loop 38
+
+ player# 2, choice1 = 1, choice2 = 0, currentplayer = 0 
+Failed to get minion on Test # 38
+Failed to +2 coins after played minion on Test # 38
+
+ loop 39
+
+ player# 4, choice1 = 0, choice2 = 1, currentplayer = 0 
+Failed to get minion on Test # 39
+Failed to discard all and redraw 4 cards after played minion on Test # 39. The handcount of player 1 is 0
+
+ loop 40
+
+ player# 3, choice1 = 1, choice2 = 0, currentplayer = 0 
+Failed to get minion on Test # 40
+Failed to +2 coins after played minion on Test # 40
+
+ loop 41
+
+ player# 4, choice1 = 1, choice2 = 0, currentplayer = 0 
+Failed to get minion on Test # 41
+Failed to +2 coins after played minion on Test # 41
+
+ loop 42
+
+ player# 2, choice1 = 0, choice2 = 1, currentplayer = 0 
+Failed to get minion on Test # 42
+Failed to discard all and redraw 4 cards after played minion on Test # 42. The handcount of player 1 is 0
+
+ loop 43
+
+ player# 3, choice1 = 1, choice2 = 0, currentplayer = 0 
+Failed to get minion on Test # 43
+Failed to +2 coins after played minion on Test # 43
+
+ loop 44
+
+ player# 4, choice1 = 1, choice2 = 0, currentplayer = 0 
+Failed to get minion on Test # 44
+Failed to +2 coins after played minion on Test # 44
+
+ loop 45
+
+ player# 4, choice1 = 0, choice2 = 1, currentplayer = 0 
+Failed to get minion on Test # 45
+Failed to discard all and redraw 4 cards after played minion on Test # 45. The handcount of player 1 is 0
+
+ loop 46
+
+ player# 4, choice1 = 0, choice2 = 1, currentplayer = 0 
+Failed to get minion on Test # 46
+Failed to discard all and redraw 4 cards after played minion on Test # 46. The handcount of player 1 is 0
+
+ loop 47
+
+ player# 2, choice1 = 1, choice2 = 0, currentplayer = 0 
+Failed to get minion on Test # 47
+Failed to +2 coins after played minion on Test # 47
+
+ loop 48
+
+ player# 3, choice1 = 0, choice2 = 1, currentplayer = 0 
+Failed to get minion on Test # 48
+Failed to discard all and redraw 4 cards after played minion on Test # 48. The handcount of player 1 is 0
+
+ loop 49
+
+ player# 4, choice1 = 1, choice2 = 0, currentplayer = 0 
+Failed to get minion on Test # 49
+Failed to +2 coins after played minion on Test # 49
+
+ loop 50
+
+ player# 2, choice1 = 0, choice2 = 1, currentplayer = 0 
+Failed to get minion on Test # 50
+Failed to discard all and redraw 4 cards after played minion on Test # 50. The handcount of player 1 is 0
+
+End Testing minion():
+
+Begin Testing tribute():
+
+ loop 1
+
+ player# 2, card set = 1, currentplayer = 0,next player# 1 
+Failed to get tribute on Test # 1
+Failed to add coins by 2 for card set 1 on Test # 1
+Failed to draw 2 cards for card set 1 on Test # 1
+Failed to throw 2 cards from next player's deck on Test # 1, the # of cards on next player's deck is 6
+
+ loop 2
+
+ player# 3, card set = 0, currentplayer = 0,next player# 1 
+Failed to get tribute on Test # 2
+Failed to add actions by 4 for card set 0 on Test # 2
+Failed to throw 2 cards from next player's deck on Test # 2, the # of cards on next player's deck is 6
+
+ loop 3
+
+ player# 4, card set = 1, currentplayer = 0,next player# 1 
+Failed to get tribute on Test # 3
+Failed to draw 2 cards for card set 1 on Test # 3
+Failed to throw 2 cards from next player's deck on Test # 3, the # of cards on next player's deck is 6
+
+ loop 4
+
+ player# 3, card set = 1, currentplayer = 0,next player# 1 
+Failed to get tribute on Test # 4
+Failed to add coins by 2 for card set 1 on Test # 4
+Failed to draw 2 cards for card set 1 on Test # 4
+Failed to throw 2 cards from next player's deck on Test # 4, the # of cards on next player's deck is 6
+
+ loop 5
+
+ player# 4, card set = 1, currentplayer = 0,next player# 1 
+Failed to get tribute on Test # 5
+Failed to add coins by 2 for card set 1 on Test # 5
+Failed to draw 2 cards for card set 1 on Test # 5
+Failed to throw 2 cards from next player's deck on Test # 5, the # of cards on next player's deck is 6
+
+ loop 6
+
+ player# 4, card set = 1, currentplayer = 0,next player# 1 
+Failed to get tribute on Test # 6
+Failed to add coins by 2 for card set 1 on Test # 6
+Failed to draw 2 cards for card set 1 on Test # 6
+Failed to throw 2 cards from next player's deck on Test # 6, the # of cards on next player's deck is 6
+
+ loop 7
+
+ player# 3, card set = 1, currentplayer = 0,next player# 1 
+Failed to get tribute on Test # 7
+Failed to add coins by 2 for card set 1 on Test # 7
+Failed to draw 2 cards for card set 1 on Test # 7
+Failed to throw 2 cards from next player's deck on Test # 7, the # of cards on next player's deck is 6
+
+ loop 8
+
+ player# 4, card set = 0, currentplayer = 0,next player# 1 
+Failed to get tribute on Test # 8
+Failed to add actions by 4 for card set 0 on Test # 8
+Failed to throw 2 cards from next player's deck on Test # 8, the # of cards on next player's deck is 6
+
+ loop 9
+
+ player# 4, card set = 1, currentplayer = 0,next player# 1 
+Failed to get tribute on Test # 9
+Failed to add coins by 2 for card set 1 on Test # 9
+Failed to draw 2 cards for card set 1 on Test # 9
+Failed to throw 2 cards from next player's deck on Test # 9, the # of cards on next player's deck is 6
+
+ loop 10
+
+ player# 3, card set = 1, currentplayer = 0,next player# 1 
+Failed to get tribute on Test # 10
+Failed to draw 2 cards for card set 1 on Test # 10
+Failed to throw 2 cards from next player's deck on Test # 10, the # of cards on next player's deck is 6
+
+ loop 11
+
+ player# 2, card set = 0, currentplayer = 0,next player# 1 
+Failed to get tribute on Test # 11
+Failed to add actions by 4 for card set 0 on Test # 11
+Failed to throw 2 cards from next player's deck on Test # 11, the # of cards on next player's deck is 6
+
+ loop 12
+
+ player# 3, card set = 1, currentplayer = 0,next player# 1 
+Failed to get tribute on Test # 12
+Failed to add coins by 2 for card set 1 on Test # 12
+Failed to draw 2 cards for card set 1 on Test # 12
+Failed to throw 2 cards from next player's deck on Test # 12, the # of cards on next player's deck is 6
+
+ loop 13
+
+ player# 2, card set = 0, currentplayer = 0,next player# 1 
+Failed to get tribute on Test # 13
+Failed to add actions by 4 for card set 0 on Test # 13
+Failed to throw 2 cards from next player's deck on Test # 13, the # of cards on next player's deck is 6
+
+ loop 14
+
+ player# 4, card set = 1, currentplayer = 0,next player# 1 
+Failed to get tribute on Test # 14
+Failed to add coins by 2 for card set 1 on Test # 14
+Failed to draw 2 cards for card set 1 on Test # 14
+Failed to throw 2 cards from next player's deck on Test # 14, the # of cards on next player's deck is 6
+
+ loop 15
+
+ player# 4, card set = 1, currentplayer = 0,next player# 1 
+Failed to get tribute on Test # 15
+Failed to add coins by 2 for card set 1 on Test # 15
+Failed to draw 2 cards for card set 1 on Test # 15
+Failed to throw 2 cards from next player's deck on Test # 15, the # of cards on next player's deck is 6
+
+ loop 16
+
+ player# 3, card set = 1, currentplayer = 0,next player# 1 
+Failed to get tribute on Test # 16
+Failed to add coins by 2 for card set 1 on Test # 16
+Failed to draw 2 cards for card set 1 on Test # 16
+Failed to throw 2 cards from next player's deck on Test # 16, the # of cards on next player's deck is 6
+
+ loop 17
+
+ player# 2, card set = 1, currentplayer = 0,next player# 1 
+Failed to get tribute on Test # 17
+Failed to add coins by 2 for card set 1 on Test # 17
+Failed to draw 2 cards for card set 1 on Test # 17
+Failed to throw 2 cards from next player's deck on Test # 17, the # of cards on next player's deck is 6
+
+ loop 18
+
+ player# 2, card set = 1, currentplayer = 0,next player# 1 
+Failed to get tribute on Test # 18
+Failed to add coins by 2 for card set 1 on Test # 18
+Failed to draw 2 cards for card set 1 on Test # 18
+Failed to throw 2 cards from next player's deck on Test # 18, the # of cards on next player's deck is 6
+
+ loop 19
+
+ player# 3, card set = 0, currentplayer = 0,next player# 1 
+Failed to get tribute on Test # 19
+Failed to add actions by 4 for card set 0 on Test # 19
+Failed to throw 2 cards from next player's deck on Test # 19, the # of cards on next player's deck is 6
+
+ loop 20
+
+ player# 3, card set = 0, currentplayer = 0,next player# 1 
+Failed to get tribute on Test # 20
+Failed to add actions by 4 for card set 0 on Test # 20
+Failed to throw 2 cards from next player's deck on Test # 20, the # of cards on next player's deck is 6
+
+ loop 21
+
+ player# 3, card set = 1, currentplayer = 0,next player# 1 
+Failed to get tribute on Test # 21
+Failed to add coins by 2 for card set 1 on Test # 21
+Failed to draw 2 cards for card set 1 on Test # 21
+Failed to throw 2 cards from next player's deck on Test # 21, the # of cards on next player's deck is 6
+
+ loop 22
+
+ player# 3, card set = 1, currentplayer = 0,next player# 1 
+Failed to get tribute on Test # 22
+Failed to add coins by 2 for card set 1 on Test # 22
+Failed to draw 2 cards for card set 1 on Test # 22
+Failed to throw 2 cards from next player's deck on Test # 22, the # of cards on next player's deck is 6
+
+ loop 23
+
+ player# 2, card set = 1, currentplayer = 0,next player# 1 
+Failed to get tribute on Test # 23
+Failed to add coins by 2 for card set 1 on Test # 23
+Failed to draw 2 cards for card set 1 on Test # 23
+Failed to throw 2 cards from next player's deck on Test # 23, the # of cards on next player's deck is 6
+
+ loop 24
+
+ player# 3, card set = 0, currentplayer = 0,next player# 1 
+Failed to get tribute on Test # 24
+Failed to add actions by 4 for card set 0 on Test # 24
+Failed to throw 2 cards from next player's deck on Test # 24, the # of cards on next player's deck is 6
+
+ loop 25
+
+ player# 2, card set = 1, currentplayer = 0,next player# 1 
+Failed to get tribute on Test # 25
+Failed to add coins by 2 for card set 1 on Test # 25
+Failed to draw 2 cards for card set 1 on Test # 25
+Failed to throw 2 cards from next player's deck on Test # 25, the # of cards on next player's deck is 6
+
+ loop 26
+
+ player# 4, card set = 0, currentplayer = 0,next player# 1 
+Failed to get tribute on Test # 26
+Failed to add actions by 4 for card set 0 on Test # 26
+Failed to throw 2 cards from next player's deck on Test # 26, the # of cards on next player's deck is 6
+
+ loop 27
+
+ player# 2, card set = 0, currentplayer = 0,next player# 1 
+Failed to get tribute on Test # 27
+Failed to add actions by 4 for card set 0 on Test # 27
+Failed to throw 2 cards from next player's deck on Test # 27, the # of cards on next player's deck is 6
+
+ loop 28
+
+ player# 2, card set = 1, currentplayer = 0,next player# 1 
+Failed to get tribute on Test # 28
+Failed to add coins by 2 for card set 1 on Test # 28
+Failed to draw 2 cards for card set 1 on Test # 28
+Failed to throw 2 cards from next player's deck on Test # 28, the # of cards on next player's deck is 6
+
+ loop 29
+
+ player# 4, card set = 0, currentplayer = 0,next player# 1 
+Failed to get tribute on Test # 29
+Failed to add actions by 4 for card set 0 on Test # 29
+Failed to throw 2 cards from next player's deck on Test # 29, the # of cards on next player's deck is 6
+
+ loop 30
+
+ player# 3, card set = 0, currentplayer = 0,next player# 1 
+Failed to get tribute on Test # 30
+Failed to add actions by 4 for card set 0 on Test # 30
+Failed to throw 2 cards from next player's deck on Test # 30, the # of cards on next player's deck is 6
+
+ loop 31
+
+ player# 2, card set = 1, currentplayer = 0,next player# 1 
+Failed to get tribute on Test # 31
+Failed to add coins by 2 for card set 1 on Test # 31
+Failed to draw 2 cards for card set 1 on Test # 31
+Failed to throw 2 cards from next player's deck on Test # 31, the # of cards on next player's deck is 6
+
+ loop 32
+
+ player# 4, card set = 0, currentplayer = 0,next player# 1 
+Failed to get tribute on Test # 32
+Failed to add actions by 4 for card set 0 on Test # 32
+Failed to throw 2 cards from next player's deck on Test # 32, the # of cards on next player's deck is 6
+
+ loop 33
+
+ player# 4, card set = 1, currentplayer = 0,next player# 1 
+Failed to get tribute on Test # 33
+Failed to draw 2 cards for card set 1 on Test # 33
+Failed to throw 2 cards from next player's deck on Test # 33, the # of cards on next player's deck is 6
+
+ loop 34
+
+ player# 4, card set = 0, currentplayer = 0,next player# 1 
+Failed to get tribute on Test # 34
+Failed to add actions by 4 for card set 0 on Test # 34
+Failed to throw 2 cards from next player's deck on Test # 34, the # of cards on next player's deck is 6
+
+ loop 35
+
+ player# 4, card set = 1, currentplayer = 0,next player# 1 
+Failed to get tribute on Test # 35
+Failed to add coins by 2 for card set 1 on Test # 35
+Failed to draw 2 cards for card set 1 on Test # 35
+Failed to throw 2 cards from next player's deck on Test # 35, the # of cards on next player's deck is 6
+
+ loop 36
+
+ player# 3, card set = 0, currentplayer = 0,next player# 1 
+Failed to get tribute on Test # 36
+Failed to add actions by 4 for card set 0 on Test # 36
+Failed to throw 2 cards from next player's deck on Test # 36, the # of cards on next player's deck is 6
+
+ loop 37
+
+ player# 4, card set = 0, currentplayer = 0,next player# 1 
+Failed to get tribute on Test # 37
+Failed to add actions by 4 for card set 0 on Test # 37
+Failed to throw 2 cards from next player's deck on Test # 37, the # of cards on next player's deck is 6
+
+ loop 38
+
+ player# 3, card set = 1, currentplayer = 0,next player# 1 
+Failed to get tribute on Test # 38
+Failed to add coins by 2 for card set 1 on Test # 38
+Failed to draw 2 cards for card set 1 on Test # 38
+Failed to throw 2 cards from next player's deck on Test # 38, the # of cards on next player's deck is 6
+
+ loop 39
+
+ player# 2, card set = 0, currentplayer = 0,next player# 1 
+Failed to get tribute on Test # 39
+Failed to add actions by 4 for card set 0 on Test # 39
+Failed to throw 2 cards from next player's deck on Test # 39, the # of cards on next player's deck is 6
+
+ loop 40
+
+ player# 4, card set = 0, currentplayer = 0,next player# 1 
+Failed to get tribute on Test # 40
+Failed to add actions by 4 for card set 0 on Test # 40
+Failed to throw 2 cards from next player's deck on Test # 40, the # of cards on next player's deck is 6
+
+ loop 41
+
+ player# 4, card set = 0, currentplayer = 0,next player# 1 
+Failed to get tribute on Test # 41
+Failed to add actions by 4 for card set 0 on Test # 41
+Failed to throw 2 cards from next player's deck on Test # 41, the # of cards on next player's deck is 6
+
+ loop 42
+
+ player# 2, card set = 0, currentplayer = 0,next player# 1 
+Failed to get tribute on Test # 42
+Failed to add actions by 4 for card set 0 on Test # 42
+Failed to throw 2 cards from next player's deck on Test # 42, the # of cards on next player's deck is 6
+
+ loop 43
+
+ player# 4, card set = 0, currentplayer = 0,next player# 1 
+Failed to get tribute on Test # 43
+Failed to add actions by 4 for card set 0 on Test # 43
+Failed to throw 2 cards from next player's deck on Test # 43, the # of cards on next player's deck is 6
+
+ loop 44
+
+ player# 4, card set = 1, currentplayer = 0,next player# 1 
+Failed to get tribute on Test # 44
+Failed to draw 2 cards for card set 1 on Test # 44
+Failed to throw 2 cards from next player's deck on Test # 44, the # of cards on next player's deck is 6
+
+ loop 45
+
+ player# 2, card set = 1, currentplayer = 0,next player# 1 
+Failed to get tribute on Test # 45
+Failed to add coins by 2 for card set 1 on Test # 45
+Failed to draw 2 cards for card set 1 on Test # 45
+Failed to throw 2 cards from next player's deck on Test # 45, the # of cards on next player's deck is 6
+
+ loop 46
+
+ player# 3, card set = 0, currentplayer = 0,next player# 1 
+Failed to get tribute on Test # 46
+Failed to add actions by 4 for card set 0 on Test # 46
+Failed to throw 2 cards from next player's deck on Test # 46, the # of cards on next player's deck is 6
+
+ loop 47
+
+ player# 2, card set = 0, currentplayer = 0,next player# 1 
+Failed to get tribute on Test # 47
+Failed to add actions by 4 for card set 0 on Test # 47
+Failed to throw 2 cards from next player's deck on Test # 47, the # of cards on next player's deck is 6
+
+ loop 48
+
+ player# 3, card set = 1, currentplayer = 0,next player# 1 
+Failed to get tribute on Test # 48
+Failed to add coins by 2 for card set 1 on Test # 48
+Failed to draw 2 cards for card set 1 on Test # 48
+Failed to throw 2 cards from next player's deck on Test # 48, the # of cards on next player's deck is 6
+
+ loop 49
+
+ player# 3, card set = 0, currentplayer = 0,next player# 1 
+Failed to get tribute on Test # 49
+Failed to add actions by 4 for card set 0 on Test # 49
+Failed to throw 2 cards from next player's deck on Test # 49, the # of cards on next player's deck is 6
+
+ loop 50
+
+ player# 4, card set = 1, currentplayer = 0,next player# 1 
+Failed to get tribute on Test # 50
+Failed to add coins by 2 for card set 1 on Test # 50
+Failed to draw 2 cards for card set 1 on Test # 50
+Failed to throw 2 cards from next player's deck on Test # 50, the # of cards on next player's deck is 6
+
+End Testing tribute():
+Function 'updateCoins'
+Lines executed:81.82% of 11
+Branches executed:100.00% of 8
+Taken at least once:75.00% of 8
+No calls
+
+Function 'gainCard'
+Lines executed:76.92% of 13
+Branches executed:100.00% of 6
+Taken at least once:66.67% of 6
+Calls executed:100.00% of 1
+
+Function 'discardCard'
+Lines executed:100.00% of 13
+Branches executed:100.00% of 6
+Taken at least once:83.33% of 6
+No calls
+
+Function 'cardEffect'
+Lines executed:0.00% of 130
+Branches executed:0.00% of 93
+Taken at least once:0.00% of 93
+Calls executed:0.00% of 44
+
+Function 'mineCard'
+Lines executed:93.75% of 16
+Branches executed:100.00% of 14
+Taken at least once:64.29% of 14
+Calls executed:100.00% of 6
+
+Function 'tributeCard'
+Lines executed:65.71% of 35
+Branches executed:80.00% of 30
+Taken at least once:60.00% of 30
+Calls executed:75.00% of 4
+
+Function 'ambassadorCard'
+Lines executed:45.83% of 24
+Branches executed:66.67% of 24
+Taken at least once:58.33% of 24
+Calls executed:0.00% of 6
+
+Function 'minionCard'
+Lines executed:77.78% of 18
+Branches executed:77.78% of 18
+Taken at least once:66.67% of 18
+Calls executed:66.67% of 6
+
+Function 'baronCard'
+Lines executed:93.10% of 29
+Branches executed:100.00% of 18
+Taken at least once:77.78% of 18
+Calls executed:75.00% of 8
+
+Function 'getCost'
+Lines executed:16.67% of 30
+Branches executed:100.00% of 28
+Taken at least once:10.71% of 28
+No calls
+
+Function 'drawCard'
+Lines executed:77.27% of 22
+Branches executed:100.00% of 6
+Taken at least once:66.67% of 6
+Calls executed:100.00% of 1
+
+Function 'getWinners'
+Lines executed:0.00% of 24
+Branches executed:0.00% of 22
+Taken at least once:0.00% of 22
+Calls executed:0.00% of 2
+
+Function 'scoreFor'
+Lines executed:0.00% of 42
+Branches executed:0.00% of 42
+Taken at least once:0.00% of 42
+Calls executed:0.00% of 3
+
+Function 'isGameOver'
+Lines executed:0.00% of 10
+Branches executed:0.00% of 8
+Taken at least once:0.00% of 8
+No calls
+
+Function 'endTurn'
+Lines executed:0.00% of 20
+Branches executed:0.00% of 6
+Taken at least once:0.00% of 6
+Calls executed:0.00% of 3
+
+Function 'whoseTurn'
+Lines executed:100.00% of 2
+No branches
+No calls
+
+Function 'fullDeckCount'
+Lines executed:0.00% of 9
+Branches executed:0.00% of 12
+Taken at least once:0.00% of 12
+No calls
+
+Function 'supplyCount'
+Lines executed:100.00% of 2
+No branches
+No calls
+
+Function 'handCard'
+Lines executed:0.00% of 3
+No branches
+Calls executed:0.00% of 1
+
+Function 'numHandCards'
+Lines executed:100.00% of 2
+No branches
+Calls executed:100.00% of 1
+
+Function 'buyCard'
+Lines executed:0.00% of 13
+Branches executed:0.00% of 6
+Taken at least once:0.00% of 6
+Calls executed:0.00% of 4
+
+Function 'playCard'
+Lines executed:0.00% of 14
+Branches executed:0.00% of 10
+Taken at least once:0.00% of 10
+Calls executed:0.00% of 3
+
+Function 'shuffle'
+Lines executed:100.00% of 16
+Branches executed:100.00% of 8
+Taken at least once:100.00% of 8
+Calls executed:100.00% of 2
+
+Function 'initializeGame'
+Lines executed:96.77% of 62
+Branches executed:100.00% of 46
+Taken at least once:93.48% of 46
+Calls executed:100.00% of 5
+
+Function 'kingdomCards'
+Lines executed:0.00% of 13
+No branches
+No calls
+
+Function 'newGame'
+Lines executed:0.00% of 3
+No branches
+No calls
+
+Function 'compare'
+Lines executed:83.33% of 6
+Branches executed:100.00% of 4
+Taken at least once:75.00% of 4
+No calls
+
+Function 'printf'
+Lines executed:0.00% of 5
+No branches
+Calls executed:0.00% of 1
+
+File 'dominion.c'
+Lines executed:39.69% of 582
+Branches executed:47.71% of 415
+Taken at least once:34.46% of 415
+Calls executed:29.00% of 100
+Creating 'dominion.c.gcov'
+
+File 'c:/mingw/include/stdio.h'
+Lines executed:0.00% of 5
+No branches
+Calls executed:0.00% of 1
+Creating 'stdio.h.gcov'
+
